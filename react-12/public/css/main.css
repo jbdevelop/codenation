@@ -179,15 +179,14 @@ section {
 }
 
 
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 940px) {
 	.container{
-		width: 728px;
-	}
-
-	
+		width: 910px;
+	}	
 }
-@media screen and (max-width: 737px) {
+
+@media screen and (max-width: 939px) {
 	.container {
-		width: 500px;
+		width: 580px;
 	}
 }
