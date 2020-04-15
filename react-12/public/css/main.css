@@ -187,6 +187,24 @@ section {
 
 @media screen and (max-width: 939px) {
 	.container {
-		width: 580px;
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		width: 500px;
 	}
 }
