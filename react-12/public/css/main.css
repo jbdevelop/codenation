@@ -178,21 +178,24 @@ section {
 	margin-right: 10px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
 	.container {
 		width: 730px;
 	}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
 	.container {
 		width: 600px;
+	}
+	.post__topbar, .post__status {
+		font-size: 14px;
 	}
 }
 
 @media screen and (max-width: 630px) {
 	.container {
-		width: 350px;
+		width: 85%;
 	}
 	.post__topbar, .post__status {
 		font-size: 12px;
