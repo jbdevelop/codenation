@@ -178,22 +178,9 @@ section {
 	margin-right: 10px;
 }
 
-
-@media screen and (min-width: 940px) {
-	.container{
-		width: 910px;
-	}	
-}
-
-@media screen and (max-width: 939px) {
-	.container {
-		width: 800px;
-	}
-}
-
 @media screen and (max-width: 850px) {
 	.container {
-		width: 700px;
+		width: 730px;
 	}
 }
 
@@ -203,13 +190,11 @@ section {
 	}
 }
 
-@media screen and (max-width: 650px) {
-	.container {
-		width: 400px;
-	}
-}
 @media screen and (max-width: 630px) {
 	.container {
 		width: 350px;
+	}
+	.post__topbar, .post__status {
+		font-size: 12px;
 	}
 }
