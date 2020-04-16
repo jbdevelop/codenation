@@ -195,7 +195,7 @@ section {
 
 @media screen and (max-width: 630px) {
 	.container {
-		width: 90%;
+		width: 95%;
 	}
 	.post__topbar, .post__status {
 		font-size: 12px;
