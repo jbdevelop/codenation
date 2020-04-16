@@ -205,11 +205,17 @@ section {
 
 @media screen and (max-width: 650px) {
 	.container {
-		width: 500px;
+		width: 400px;
 	}
 }
 @media screen and (max-width: 550px) {
 	.container {
-		width: 400px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container {
+		width: 100px;
 	}
 }
