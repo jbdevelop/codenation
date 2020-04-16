@@ -208,14 +208,8 @@ section {
 		width: 400px;
 	}
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 630px) {
 	.container {
-		width: 100px;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.container {
-		width: 100px;
+		width: 380px;
 	}
 }
