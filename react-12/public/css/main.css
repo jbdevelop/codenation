@@ -210,6 +210,6 @@ section {
 }
 @media screen and (max-width: 630px) {
 	.container {
-		width: 380px;
+		width: 350px;
 	}
 }
