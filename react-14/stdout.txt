@@ -1,0 +1,4 @@
+
+> contacts_app@0.1.0 submit /home/julio/codenation/react-14
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
