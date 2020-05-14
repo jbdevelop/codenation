@@ -18,7 +18,7 @@ class Contact extends React.Component {
         <span className="contact__data" data-testid='contact-name'>{contact.name}</span>
         <span className="contact__data" data-testid='contact-phone'>{contact.phone}</span>
         <span className="contact__data" data-testid='contact-country'>{contact.country}</span>
-        <span className="contact__data" data-testid='contact-date'>{`${mm}/${dd}/${yyyy}`}</span>
+        <span className="contact__data" data-testid='contact-date'>{`${dd}/${mm}/${yyyy}`}</span>
         <span className="contact__data" data-testid='contact-company'>{contact.company}</span>
         <span className="contact__data">{contact.department}</span>
       </article>
