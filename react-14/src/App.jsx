@@ -43,10 +43,10 @@ class App extends React.Component {
     this.setState({
       contacts: await getApi(
         "https://5e82ac6c78337f00160ae496.mockapi.io/api/v1/contacts"
-      ),      
-      contactsSafe: await getApi(
-        "https://5e82ac6c78337f00160ae496.mockapi.io/api/v1/contacts"
-      ),      
+      ),                
+    })    
+    this.setState({
+      contactsSafe: this.state.contacts
     })
   }
 
